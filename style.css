@@ -7,17 +7,16 @@ body {
   padding: 0;
   padding-bottom: 20px;
 }
-main {
-  background-color: #ffffff;
-}
 
 /* header section */
 header {
   background-color: #fbf0e4;
+  padding: 30px;
 }
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 40px;
 }
 .header-title {
@@ -34,9 +33,6 @@ ul {
   color: #424242;
 }
 /* banner section */
-.banne {
-  background-color: #ff900e;
-}
 .info {
   text-align: center;
   width: 50%;
@@ -73,16 +69,17 @@ ul {
 .features-imgs {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-left: 50px;
+  margin-left: 0 50px;
   width: 100%;
 }
 
-.features-img {
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  width: 330px;
-  height: 340px;
+.features-img { 
+  margin:20px;
+  width:90%;
+ 
+  
+  /* width: 330px;
+  height: 340px; */
 }
 
 .features-info {
@@ -152,8 +149,7 @@ ul {
   margin-top: -80px;
 }
 
-.box{
-}
+
 
 .big {
   font-size: 33px;
@@ -178,7 +174,7 @@ ul {
   transition: 0.3s;
 }
 
-  .fact:hover{
+.fact:hover {
   padding: 20px;
 }
 .fact div {
@@ -200,7 +196,6 @@ ul {
 }
 .sponsor-images img {
   margin-right: 40px;
-  mix-blend-mode: luminosity;
 }
 
 /* Reviews */
