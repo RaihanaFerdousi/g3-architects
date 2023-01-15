@@ -6,6 +6,9 @@ body {
   margin: 0;
   padding: 20px;
 }
+main {
+  background-color: #ffffff;
+}
 
 /* header section */
 header {
@@ -59,6 +62,7 @@ ul {
 .img img {
   width: 100%;
 }
+
 /* features section */
 .features {
   margin-top: 60px;
@@ -89,16 +93,13 @@ ul {
   font-weight: 500;
   font-size: 45px;
 }
-.width-part{
+.width-part {
   color: #131313;
   font-weight: 700;
 }
-.color-part{
-  color: #FF900E;
+.color-part {
+  color: #ff900e;
   font-weight: 700;
-}
-.features-info p{
-  color: #727272;
 }
 /* features-bottom section */
 .features-bottom {
@@ -114,6 +115,7 @@ ul {
   color: #131313;
 }
 .paragraph {
+  margin-bottom: 50px;
   font-weight: 400;
   font-size: 16px;
   color: #727272;
@@ -127,7 +129,7 @@ ul {
 .features-button {
   position: absolute;
   top: 2725px;
-  right: 537px;
+  right: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -136,6 +138,7 @@ ul {
   border: none;
   padding: 50px;
   width: 25%;
+  border-radius: 4;
   height: 30px;
   font-weight: 700;
   color: #ffffff;
@@ -143,5 +146,32 @@ ul {
 }
 .big {
   font-size: 33px;
+  margin-bottom: 0px;
 }
 /* Facts section */
+.facts {
+  margin-left: 50px;
+  margin: 0;
+  padding: 50px;
+}
+.fact {
+  margin: 40px;
+  border: 1px solid #ff900e;
+  width: 241px;
+  height: 241px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fact div {
+  margin: 20px;
+}
+.fact-info {
+  margin: 60px;
+  display: flex;
+}
+.center {
+  margin-top: 5px;
+}
