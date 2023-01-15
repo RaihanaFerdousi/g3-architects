@@ -1,0 +1,147 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+/* header section */
+header {
+  background-color: #fbf0e4;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.header-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #131313;
+}
+ul {
+  display: flex;
+  gap: 45px;
+  font-size: 18px;
+  font-weight: 600;
+  list-style: none;
+  color: #424242;
+}
+/* banner section */
+.banne {
+  background-color: #ff900e;
+}
+.info {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.banner-title {
+  font-size: 50px;
+  font-weight: 700;
+}
+.banner-button {
+  background-color: #ff900e;
+  border: none;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 3px;
+}
+.img {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+.img img {
+  width: 100%;
+}
+/* features section */
+.features {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.features-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 50px;
+  width: 100%;
+}
+
+.features-img {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 330px;
+  height: 340px;
+}
+
+.features-info {
+  padding-left: 50px;
+  padding-top: 200px;
+}
+.features-info h2 {
+  color: #727272;
+  font-weight: 500;
+  font-size: 45px;
+}
+.width-part{
+  color: #131313;
+  font-weight: 700;
+}
+.color-part{
+  color: #FF900E;
+  font-weight: 700;
+}
+.features-info p{
+  color: #727272;
+}
+/* features-bottom section */
+.features-bottom {
+  display: flex;
+  margin: 50px 50px;
+}
+.box {
+  margin-bottom: 50px;
+}
+.title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.features-bottom img {
+  width: 660px;
+  margin-left: 100px;
+  height: 900px;
+  float: right;
+}
+.features-button {
+  position: absolute;
+  top: 2725px;
+  right: 537px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff900e;
+  border: none;
+  padding: 50px;
+  width: 25%;
+  height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: -80px;
+}
+.big {
+  font-size: 33px;
+}
+/* Facts section */
