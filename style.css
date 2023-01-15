@@ -4,7 +4,8 @@
 
 body {
   margin: 0;
-  padding: 20px;
+  padding: 0;
+  padding-bottom: 20px;
 }
 main {
   background-color: #ffffff;
@@ -114,6 +115,12 @@ ul {
   font-size: 45px;
   color: #131313;
 }
+
+.features-title {
+  border-left: 5px solid #ff900e;
+  padding-left: 15px;
+}
+
 .paragraph {
   margin-bottom: 50px;
   font-weight: 400;
@@ -138,12 +145,16 @@ ul {
   border: none;
   padding: 50px;
   width: 25%;
-  border-radius: 4;
+  border-radius: 12px;
   height: 30px;
   font-weight: 700;
   color: #ffffff;
   margin-top: -80px;
 }
+
+.box{
+}
+
 .big {
   font-size: 33px;
   margin-bottom: 0px;
@@ -164,6 +175,11 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+  transition: 0.3s;
+}
+
+  .fact:hover{
+  padding: 20px;
 }
 .fact div {
   margin: 20px;
@@ -172,7 +188,7 @@ ul {
   margin: 60px;
   display: flex;
 }
-.center {
+.fact-paragraph {
   margin-top: 5px;
 }
 /* sponsor section */
@@ -186,6 +202,37 @@ ul {
   margin-right: 40px;
   mix-blend-mode: luminosity;
 }
+
+/* Reviews */
+
+.reviews {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.review div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.review div {
+  text-align: center;
+}
+
+.review div p {
+  text-align: center;
+}
+
 /* footer section */
 footer {
   text-align: center;
