@@ -175,3 +175,22 @@ ul {
 .center {
   margin-top: 5px;
 }
+/* sponsor section */
+.sponsor{
+  text-align: center;
+}
+.sponsor-images{
+  margin-bottom: 80px;
+}
+.sponsor-images img{
+  margin-right: 40px;
+  mix-blend-mode: luminosity;
+}
+/* footer section */
+footer{
+  text-align: center;
+}
+.container{
+  background-color: #fff4e7;
+  padding: 10px;
+}
