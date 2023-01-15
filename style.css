@@ -176,21 +176,23 @@ ul {
   margin-top: 5px;
 }
 /* sponsor section */
-.sponsor{
+.sponsor {
   text-align: center;
 }
-.sponsor-images{
+.sponsor-images {
   margin-bottom: 80px;
 }
-.sponsor-images img{
+.sponsor-images img {
   margin-right: 40px;
   mix-blend-mode: luminosity;
 }
 /* footer section */
-footer{
+footer {
   text-align: center;
 }
-.container{
+.container {
   background-color: #fff4e7;
   padding: 10px;
+  margin-left: 175px;
+  width: 1000px;
 }
